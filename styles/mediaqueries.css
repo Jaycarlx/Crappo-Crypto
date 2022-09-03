@@ -1,0 +1,482 @@
+@media screen and (max-width: 800px) {
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    nav {
+        padding: 16px;
+        padding-top: 40px;
+    }
+
+    nav .middle-nav,
+    nav .right-nav {
+        display: none;
+    }
+
+    .showNavDropdown {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav .left-nav img {
+        width: 5rem;
+    }
+
+    .iconsdark {
+        display: flex;
+    }
+
+    .iconsdark .showNavDropdown {
+        padding-left: 1rem;
+    }
+
+    .iconsdark .dark-iconMobile {
+        display: block;
+        cursor: pointer;
+        width: 24px;
+        height: 25px;
+    }
+
+    .feature {
+        padding: 0px 16px;
+        height: auto;
+        margin-top: -15rem;
+    }
+
+    .mobile-feature {
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .feature-top .save {
+        width: 17rem;
+        height: 30px;
+    }
+
+    .feature-top .save p {
+        font-size: .7rem;
+        font-weight: 200;
+    }
+
+    .feature-top .save-text {
+        height: 22px;
+        width: 5.9rem;
+    }
+
+    .feature-top .save-text p {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    .feature-top-right {
+        padding: 0;
+    }
+
+    .feature img.base {
+        display: none;
+    }
+
+    .feature img.base2 {
+        display: none;
+    }
+
+    .feature-top article {
+        width: 61%;
+        margin: 74px 0px 40px;
+        padding: 0;
+    }
+
+    .feature-top .tired {
+        font-size: 1.8rem;
+        line-height: 27px;
+        width: 24rem;
+        text-align: left;
+    }
+
+    .feature-top .tired2 {
+        font-size: .7rem;
+        line-height: 19px;
+        margin: 8px 0px 16px 0px;
+        width: 19rem;
+        text-align: left;
+    }
+
+    .feature-top-btn {
+        height: 2rem;
+        width: 8.3rem;
+    }
+
+    .feature-top-btn img {
+        margin-right: 1rem;
+        width: 1.3rem;
+    }
+
+    .feature-top button {
+        width: 136px;
+        height: 40px;
+        font-size: .7rem;
+        line-height: 22px;
+    }
+
+    .feature-top-right-pics {
+        width: 100%;
+        height: 200px;
+    }
+
+    .feature-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-top article {
+        width: 90%;
+        text-align: center;
+    }
+
+    .feature-top-btn {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-top-right {
+        width: 100%;
+    }
+
+    .after-feature-container {
+        width: 95%;
+    }
+
+    .after-feature-head {
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        width: 72%;
+    }
+
+    .snippet-container {
+        flex-direction: column;
+        width: 15rem;
+    }
+
+    .snippet {
+        width: 50%;
+        padding: 8px;
+        margin-top: .5rem;
+    }
+
+    .snippet-head {
+        font-size: 1.5rem;
+    }
+
+    .snippet-message {
+        font-size: .8rem;
+    }
+
+    .feature-contd {
+        padding: 50px 0px;
+    }
+
+    .why-crappo {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .why-crappo article {
+        margin-bottom: -6rem;
+    }
+
+    .why-crappo .why-crappo-head {
+        font-size: 1.5rem;
+        width: 13rem;
+        line-height: 2rem;
+    }
+
+    .why-crappo .why-crappo-body {
+        font-size: .8rem;
+        width: 19rem;
+    }
+
+    .why-crappo-btn {
+        width: 7rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why-crappo-btn button {
+        width: 136px;
+        height: 40px;
+        font-size: .7rem;
+        line-height: 22px;
+    }
+
+    .why-crappo img.dshape {
+        display: none;
+    }
+
+    .why-crappo img.ushape {
+        display: none;
+    }
+
+    .why-crappo img.lshape {
+        display: none;
+    }
+
+    .check-section {
+        height: 10rem;
+    }
+
+    .check-section h4 {
+        font-size: 1.5rem;
+        line-height: 30px
+    }
+
+    .check-section p {
+        font-size: .8rem;
+    }
+
+    .calculate {
+        width: 80%;
+        left: 10%;
+        top: -12rem;
+        margin-top: 8rem;
+    }
+
+    .input-hash {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .input-hash input {
+        width: 15rem;
+    }
+
+    .input-hash select {
+        background-color: #E0E0E0;
+        width: 15rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .input-hash button {
+        width: 8rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .estimate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .estimate h1 {
+        font-size: 1.5rem;
+    }
+
+    .estimate p.revenue {
+        font-size: .7rem;
+        font-weight: 400;
+        margin-bottom: -1rem;
+    }
+
+    .estimate p.mining {
+        font-size: .8rem;
+        line-height: 20px;
+    }
+
+    .cryptos-container {
+        height: 128rem;
+    }
+
+    .cryptos-container .cryptos h2 {
+        font-size: 1.3rem;
+        margin-top: 10rem;
+        line-height: 30px;
+    }
+
+    .cryptos-container .all-cryptos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-contd {
+        padding: 0;
+    }
+
+    .feature-contd h1 {
+        font-size: 1.5rem;
+        width: 21rem;
+        line-height: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .feature-section {
+        width: auto;
+        min-width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+
+    .feature-section article {
+        width: 100%;
+        margin-bottom: -8rem;
+    }
+
+    .feature-sect-head {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .feature-sect-body {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        width: auto;
+        text-align: justify;
+    }
+
+    .feature-contd-pic {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .feature-contd-pic img {
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+    }
+
+    .after-feature {
+        margin-top: -10rem;
+    }
+
+    .try-us {
+        height: auto;
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .try-us-container .lshape {
+        display: none;
+    }
+
+    .try-us .mining {
+        margin-bottom: -5.5rem;
+    }
+
+    .try-us button {
+        width: 5rem;
+        font-size: .7rem;
+        height: 2rem;
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+    .mining h2 {
+        font-size: 1.4rem;
+    }
+
+    .mining p {
+        font-size: .7rem;
+        width: 15rem;
+    }
+
+    .try-us input {
+        width: 17rem;
+    }
+
+    footer {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 46px 20px 20px 20px;
+        padding: 16px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-top-header {
+        margin-top: -1rem;
+
+    }
+
+    .footer-top-header h4 {
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer-top-header h4.payment {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+
+    .footer-top-header.f-images {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-images {
+        gap: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links a,
+    .footer-links p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: .5rem;
+    }
+
+    .footer-links div img {
+        margin-left: 0rem;
+    }
+
+    .footer-bottom {
+        margin-top: 24px;
+    }
+
+    .copyright,
+    .footer-line {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+}
